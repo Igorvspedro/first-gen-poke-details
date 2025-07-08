@@ -15,7 +15,7 @@ const PokemonCard: React.FC<PokemonCardProps> = ({ pokemon, onClick }) => {
       onClick={onClick}
     >
       <div className="text-center">
-        <div className="bg-red-600 text-white text-sm font-bold py-1 px-3 rounded-full inline-block mb-3">
+        <div className="bg-gray-700 text-white text-sm font-bold py-1 px-3 rounded-full inline-block mb-3">
           {formatPokemonNumber(pokemon.id)}
         </div>
         
